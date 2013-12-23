@@ -1,0 +1,57 @@
+-- WHAT i DID 
+
+1. Installed python virtual-env
+2. Check if pip is installed
+3. Created env using virtualenv
+4. Activated it. 
+5. Installed required python packages. 
+
+
+
+-- PROTOTYPE 
+0. CONFIGURE DJANGO 
+1. CREATE AN APP 
+2. DESIGN THE MODEL FOR THE DEALS 
+3. CREATE A VIEW TO POST THE DEALS. 
+4. CREATE A VIEW TO READ THE POSTED DEALS 
+5. PUSH IT TO THE SERVER. 
+6. USE SAWANET API
+
+
+-- VIEWS 
+
+1. House 
+2. Cars 
+3. Other Deals 
+
+
+https://www.sawanet.com/rsms/send?endpoint=gukodesha&number=250788123123&text=test+message&password=221152355
+
+1. House 
+<verb><object><location><amount><size><description> 
+number 
+location 
+price 
+size 
+description 
+action 
+posted 
+
+
+2. Car
+<verb><object><type><amount><description>
+number 
+ctype 
+price 
+description 
+action
+posted  
+
+3. Other Deals 
+<verb><object><amount><description>
+number 
+name 
+price 
+description 
+action 
+posted 
